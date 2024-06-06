@@ -18,8 +18,7 @@ bool currentPiece[4][4];
 int currentPieceX = 5;
 int currentPieceY = -3;
 int speed = 20;
-//change pos to struct later
-//COORD currentPiecePos = {5, -3};
+
 auto nextPiece = I;
 
 void setNextPiece() {
@@ -81,7 +80,7 @@ void setPieceFields(bool b) {
     }
 }
 
-// TODO change speed function
+
 
 void checkLineClear() {
     int cleared = 0;
